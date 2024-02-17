@@ -71,7 +71,7 @@ void main(){
     printMyTable(table);
 
   }while(win == 0);
-  /// faire l'annonce du gagnant et l'arret de la boucle
+ 
 
 
 
