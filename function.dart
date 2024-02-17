@@ -16,21 +16,6 @@ List<List<String>> insertMySymbol(int l, String playerMotif, List<List<String>> 
   return table;
 }
 
-/***bool isLocationOccupiedInTable(int l, List<List<String>> table) {
-  if (l >= 1 && l <= 3) {
-    return table[0][(l - 1)] == 'X' || table[0][(l - 1)] == 'O';
-  } else if (l >= 4 && l <= 6) {
-    return table[1][(l - 4)] == 'X' || table[1][(l - 4)] == 'O';
-  } else if (l >= 7 && l <= 9) {
-    return table[2][(l - 7)] == 'X' || table[2][(l - 7)] == 'O';
-  }
-
-  // Retourne false si l est en dehors de la plage 1-9
-  return false;
-}
-    */
-
-//int takeLocation(List<List<String>> table) {
 int takeLocation() {
 
 
